@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+}
+
+/* Style for the user list */
+#user-list {
+    margin-bottom: 20px ;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+th {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for the add user form */
+
+.add-user-modal {
+    position: absolute;
+    width: 800px;
+    height: 25vw;
+    background-color: white;
+    box-shadow: 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.add-user-modal form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.span-form-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.span-form-1 input {
+    width: 290px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.span-form-2 {
+    display: flex;
+    flex-direction: column;
+}
+.delete-user-btn{
+    border: 1px solid  red;
+}
+.edit-user-btn{
+    border: 1px solid  blue;
+}
+
+ input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+    border-bottom: 3px solid black;
+}
+.input:focus{
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.add-user-btn , .canacle-btn {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
